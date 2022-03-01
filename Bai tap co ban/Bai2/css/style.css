@@ -1,0 +1,56 @@
+		body
+		{
+			background-color: lightblue;
+		}
+
+		a
+		{
+			text-decoration: none;
+		}
+
+		h1:hover
+		{
+			color: yellow;
+		}
+
+		h1
+		{
+			color: #000;
+			font-size: 18px;
+		}
+
+
+		img
+		{
+			float: left;
+			height: 130px;
+			width: 190px;
+			padding-right: 10px;
+		}
+
+		img:horver
+		{
+			display: block;
+			color: yellow;
+		}
+
+		div
+		{
+			width: 600px;
+			height: 195px;
+/*			border: 1px solid black;*/
+			margin: 10px;
+			padding: 5px;
+		}
+
+		span
+		{
+			color: #8E8E8E;
+		}
+
+		p
+		{
+			font-family: tahoma;
+			color: #6E3333;
+			font-size: 13px;
+		}

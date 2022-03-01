@@ -1,0 +1,56 @@
+*
+{
+	margin: 0;
+	padding: 0;
+}
+
+a.khoivuongnho
+{
+	width: 280px;
+	height: 210px;
+	position: relative;
+	display: block;
+	color: #fff;
+	float: left;
+	padding-left: 10px;
+}
+
+a.khoivuongnho img.layer1
+{
+	width: 280px;
+	height: 210px;
+	position: absolute;
+	z-index: 1;
+}
+
+.layer2
+{
+	width: 280px;
+	height: 210px;
+	position: absolute;
+	z-index: 2;
+	top: 0px;
+	left: 0px;
+	margin-left: 10px;
+	background-image: -webkit-linear-gradient(top,#b4d0d557 50%,#000000de 100%);
+}
+
+.layer3
+{
+	/*width: 280px;*/
+	position: absolute;
+	z-index: 3;
+	top: 150px;
+	right: -8px;
+	opacity: 0;
+	transition: .5s;
+	color: #fff;
+	padding-left: 10px;
+	margin-left: 10px;
+	/*border: 1px solid #000;*/
+}
+
+a.khoivuongnho:hover .layer3
+{
+	opacity: 1;
+}

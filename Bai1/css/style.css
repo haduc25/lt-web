@@ -1,0 +1,30 @@
+body
+{
+	background-color: hotpink;
+}
+
+h1
+{
+	color: yellow;
+}
+
+a
+{
+	text-decoration: none;
+}
+
+a:hover
+{
+	text-decoration: underline;
+}
+
+h2
+{
+	color: black;
+}
+
+h2:hover
+{
+	color: yellow;
+}
+
